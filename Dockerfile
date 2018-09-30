@@ -9,3 +9,5 @@ RUN apt install -y phpunit
 RUN apt install -y php-xdebug
 RUN apt install -y vim
 
+# 作業用フォルダを作成する
+RUN mkdir /projects
